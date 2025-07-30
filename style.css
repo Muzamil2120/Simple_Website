@@ -1,0 +1,67 @@
+.headingone{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center; 
+    background-color: black;
+}
+
+.header{
+
+    display: flex;
+    text-align: center;
+}
+    .name{
+        color: rgb(184, 125, 59);
+        text-align: centre;
+
+    }
+    .nav-list{
+       a {
+            color: white;
+            text-decoration: none;
+         text-decoration: none;}
+        display: flex;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type:none;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        padding: 0;
+    }
+
+    .headingtwo{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-align: center;
+        background-color: black;
+    }
+    .paragraph{
+        color:rgb(0, 0, 0);
+        font-size: 16px;
+        text-align:centre;
+    }
+    .footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        margin-left: -10px;
+    }
+
+@media screen and  (max-width: 600px) {
+    .headingone {
+        font-size: 20px;
+    }
+    body {
+        background-color: lightblue;
+    }
+    .name{
+        color: red;
+        font-size: 18px;
+        text-align: center;
+    }
+}
